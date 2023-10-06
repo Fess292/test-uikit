@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Bebas Neue Pro';
+    src: local('Bebas Neue Pro Bold'), local('Bebas-Neue-Pro-Bold'),
+        url('../fonts/BebasNeuePro-Bold.woff2') format('woff2'),
+        url('../fonts/BebasNeuePro-Bold.woff') format('woff'),
+        url('../fonts/BebasNeuePro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+:root {
+---main-сolor: #274562;
+}
+body {
+    font-family: 'Open Sans', sans-serif
+}
+
+.uk-heading-medium {
+    font-size: 68px;
+    letter-spacing: 0.68px;
+    line-height: 1;
+    font-family: 'Bebas Neue Pro';
+    color: var(---main-сolor)
+}
+.promo .uk-container-large {
+    max-width: 1760px;
+}
+.promo .uk-tab>*>a {
+    font-size: 20px;
+    padding: 8px 16px;
+    color: #B1C3CF
+}
+.promo .uk-tab>.uk-active>a {
+    background: var(---main-сolor);
+    color: #fff;
+    border: none
+}
+.promo .uk-tab:before {
+    display: none;
+}
+.promo .uk-switcher>li {
+    line-height: 1.3;
+}
+.promo .uk-button {
+    letter-spacing: 0.48px;
+    font-family: 'Bebas Neue Pro';
+    border-color: var(---main-сolor)
+}
